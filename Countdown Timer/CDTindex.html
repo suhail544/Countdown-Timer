@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CDTstyles.css">
+    <title>CountDown Timer ⏱️</title>
+</head>
+<body>
+    <h2 style="font-family: 'Trebuchet MS'; font-size: 46px; color: white;">CountDown Timer ⏱️</h2>
+    <div>
+        <h2 class="display">0 Days, 0 Hours, 0 Minutes, 0 seconds</h2> 
+    </div>
+    <div class="countdown">
+        <div class="inputs">
+            <label for="input">Enter Date:</label><input class="ipDate" type="date" id="date">
+        </div>
+        <br>
+
+        <div class="inputs">
+            <label for="input">Enter Time:</label><input class="ipTime" type="time" id="time">
+        </div>
+
+        <div class="btns">
+            <button onclick="calcCountDown()">START</button>
+            <button onclick="resetCountDown()">RESET</button>
+        </div>
+        
+    </div>
+    <script src="CDTscript.js"></script>
+</body>
+</html>
+
